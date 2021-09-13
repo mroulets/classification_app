@@ -1,11 +1,14 @@
-# Streamlit to Heroku (example)
+# Streamlit to Heroku 
+
+Groupe: 
+- ROUX Dorian
+- ROULET Maria Paula
 
 ## Setup
+Python: 3.8
 
-Use >= python3.7, after cloning this repository, run this command.
-
-`pip install -r requirements.txt`
+Model in HuggingFace: siebert/sentiment-roberta-large-english
 
 ## Launch app
 
-`streamlit run app.py`
+`streamlit run app1.py`
