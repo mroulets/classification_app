@@ -10,4 +10,4 @@
 
 ## Launch app
 
-`streamlit run app1.py`
+https://sentiment-classification-cc.herokuapp.com/
