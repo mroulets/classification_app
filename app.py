@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_URL = "https://api-inference.huggingface.co/models/siebert/sentiment-roberta-large-english"
-headers = {"Authorization": f"Bearer" + os.getenv("API_TOKEN")}
+headers = {"Authorization": f"Bearer " + os.getenv("API_TOKEN")}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
